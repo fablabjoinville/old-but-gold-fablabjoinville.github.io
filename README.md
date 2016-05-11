@@ -1,2 +1,13 @@
 # fablabjoinville.github.io
-Fab Lab Joinville
+
+## Setup
+
+```sh
+bundle install
+```
+
+## Desenvolvimento
+
+```sh
+jekyll s
+```
