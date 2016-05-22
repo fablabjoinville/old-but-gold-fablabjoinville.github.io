@@ -1,0 +1,346 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "variables";
+
+$primary: "#00b3fe";
+$secondary: "#FF8700";
+$secondary-dark: "#333";
+$muted: "777";
+
+$text-color: #222;
+$link-color: #00b3fe;
+$link-hover-color: #FF8700;
+$link-hover-decoration: underline;
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+$font-family-sans-serif-secondary: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif-title: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$font-size-base: 18px;
+$line-height-base: 1.4;
+
+@import "bootstrap";
+@import "theme";
+
+body {
+  overflow-x: hidden;
+  font-family: $font-family-sans-serif;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-family-sans-serif-title;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-style: normal;
+}
+
+blockquote, dd, dl, figure, form, h1, h2, h3, h4, h5, h6, menu, ol, p, pre, ul {
+  margin: 0
+}
+
+p {
+  line-height: 1.75;
+  margin-bottom: 15px;
+}
+
+a, a:hover, a:focus, a:active, a.active {
+  outline: 0;
+}
+
+.navbar-default {
+  border-color: transparent;
+  background-color: #222;
+  text-shadow: 2px 2px 10px #222;
+
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+
+  .container {
+    width: 100%;
+    padding: 0 120px;
+  }
+
+  .nav li a {
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+
+    &:hover, &:focus {
+      outline: 0;
+    }
+  }
+
+  .navbar-nav>.active>a {
+    border-radius: 0;
+    color: $link-color;
+    background-color: $secondary-dark;
+    text-shadow: none;
+
+    &:hover, &:focus {
+      background-color: $secondary-dark;
+      text-shadow: none;
+    }
+  }
+
+  .navbar-header {
+    .navbar-nav {
+      text-shadow: 2px 2px 10px #222;
+    }
+
+    .navbar-brand {
+      font-family: $font-family-sans-serif-title;
+      font-size: 30px !important;
+      font-weight: 700;
+      color: #fff;
+      margin-top: -8px;
+      line-height: 40px;
+
+      &:hover {
+        color: #fff;
+      }
+
+      img {
+        float: left;
+        margin-right: 10px;
+        padding-bottom: 6px;
+      }
+    }
+  }
+}
+
+.navbar-default.sticky {
+    background-color: #222;
+    text-align: left;
+    height: 80px;
+    padding: 16px 0;
+
+    .navbar-header {
+      margin-top: -2px !important;
+    }
+
+    .navbar-brand {
+      font-size: 24px !important;
+      line-height: 36px;
+
+      img {
+        width: 36px;
+      }
+    }
+
+    .nav {
+      li a {
+        color: #fff;
+
+        &:hover, &:focus {
+          outline: 0;
+          color: $link-color;
+        }
+      }
+    }
+}
+
+@media(min-width:768px) {
+  .navbar-default {
+    padding: 25px 0;
+    border: 0;
+    background-color: transparent;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+  }
+
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .navbar-default .navbar-nav>.active>a {
+    border-radius: 3px;
+  }
+
+  .navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: $secondary-dark;
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+
+  span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: $font-family-sans-serif;
+    line-height: 40px;
+  }
+
+  ul.social-buttons {
+    margin-bottom: 0;
+    li a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      font-size: 20px;
+      line-height: 40px;
+      outline: 0;
+      color: #fff;
+      background-color: $secondary-dark;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+    }
+    li a:hover,
+    li a:focus,
+    li a:active {
+        background-color: $primary;
+    }
+  }
+}
+
+// index
+
+header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url('/images/header-bg1.jpg');
+  background-color: #000;
+  z-index: -1;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+
+  .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 10px #333;
+
+    h1 {
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      font-family: $font-family-sans-serif;
+      font-size: 60px !important;
+      font-weight: 700;
+      letter-spacing: 2px;
+      // line-height: 50px;
+    }
+
+    h2 {
+      text-transform: none;
+      font-weight: 500;
+      font-family: $font-family-sans-serif-secondary;
+      font-size: 34px;
+      font-style: italic;
+      line-height: 40px;
+      max-width: 1000px;
+      margin:auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .btn-conheca {
+      text-shadow: 1px 1px 15px #888 !important;
+      font-weight: 800 !important;
+      padding: 24px 32px;
+    }
+  }
+}
+
+@media(min-width:768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  header .intro-text .intro-lead-in {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: $font-family-sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+  }
+
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+  }
+}
+
+section.intro div.container {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  max-width: 900px;
+
+  .event-row {
+    margin: 20px 0 20px 0;
+  }
+
+  h1 {
+    font-weight: 100;
+    font-family: $font-family-sans-serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+section#sobre {
+}
+
+section#agenda {
+  background-color: #f5f5f5;
+  .oficina-info {
+    margin-bottom: 20px;
+    .oficina-data, .oficina-detalhes {
+      margin: 0;
+      line-height: 24px;
+    }
+  }
+}
+
+section#contact {
+    background-color: #333;
+    background-image: url('/images/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    .container {
+      padding: 40px 0;
+    }
+
+    h1 {
+      color: #fff;
+      margin: 0 0 20px 0;
+      padding: 0;
+    }
+
+    h3 {
+      color: #fff;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+}
