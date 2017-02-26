@@ -11,6 +11,6 @@ categories:
 tags:
   - noticias-do-dia
 ---
-Nota publica no Notícias do Dia sobre a oficina de IoT.<!--more-->
+Nota publica no Notícias do Dia sobre a oficina de IoT.
 
-<img class="alignnone size-medium wp-image-3262" src="http://www.fablabjoinville.com.br/wp-content/uploads/2016/11/20161028-Fab-Lab-ND-Alessandra-Ogeda-28-10-300x224.png" alt="Notícias do Dia - Oficina de IoT" width="300" height="224" srcset="http://www.fablabjoinville.com.br/wp-content/uploads/2016/11/20161028-Fab-Lab-ND-Alessandra-Ogeda-28-10-300x224.png 300w, http://www.fablabjoinville.com.br/wp-content/uploads/2016/11/20161028-Fab-Lab-ND-Alessandra-Ogeda-28-10-150x112.png 150w, http://www.fablabjoinville.com.br/wp-content/uploads/2016/11/20161028-Fab-Lab-ND-Alessandra-Ogeda-28-10.png 304w" sizes="(max-width: 300px) 100vw, 300px" />
+![]({{site.baseurl}}/wp-content/uploads/2016/11/20161028-Fab-Lab-ND-Alessandra-Ogeda-28-10-300x224.png)

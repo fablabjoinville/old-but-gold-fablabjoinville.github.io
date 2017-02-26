@@ -14,57 +14,30 @@ categories:
 tags:
   - arduino
   - robotica
+images:
+  - thumb: /wp-content/uploads/2016/06/IMG_2240-150x150.jpg
+    full: /wp-content/uploads/2016/06/IMG_2240.jpg
+  - thumb: /wp-content/uploads/2016/06/13438934_10206395825190043_624591755915248593_n-150x150.jpg
+    full: /wp-content/uploads/2016/06/13438934_10206395825190043_624591755915248593_n.jpg
+  - thumb: /wp-content/uploads/2016/06/13452994_10155080088903538_669838957_o-150x150.jpg
+    full: /wp-content/uploads/2016/06/13452994_10155080088903538_669838957_o.jpg
+  - thumb: /wp-content/uploads/2016/06/IMG_2238-150x150.jpg
+    full: /wp-content/uploads/2016/06/IMG_2238.jpg
+  - thumb: /wp-content/uploads/2016/06/13497813_925814750880230_1735597692287094414_o-150x150.jpg
+    full: /wp-content/uploads/2016/06/13497813_925814750880230_1735597692287094414_o.jpg
+  - thumb: /wp-content/uploads/2016/06/IMG_2226-150x150.jpg
+    full: /wp-content/uploads/2016/06/IMG_2226.jpg
 ---
-Veja como foi!
+Gostaria de mais uma edição dessa oficina? Entre em contato com a gente!
+<contato@fablabjoinville.com.br>
 
-<!--more-->
+Nesta oficina montamos o robô Poppet. Todo o material utilizado na oficina pode
+ser encontrado em nosso [Github](https://github.com/fablabjoinville/poppet).
 
-Gostaria de mais uma edição dessa oficina? Entre em contato com a gente! <contato@fablabjoinville.com.br>
+<iframe style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffablabjoinville%2Fvideos%2F1738230983110974%2F&amp;show_text=0&amp;width=560" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-Nesta oficina montamos o robô Poppet. Todo o material utilizado na oficina pode ser encontrado em nosso [Github](https://github.com/fablabjoinville/poppet).
-
-<center>
-  <br />
-</center>
-
-<div id='gallery-1' class='gallery galleryid-3149 gallery-columns-3 gallery-size-thumbnail'>
-  <dl class='gallery-item'>
-    <dt class='gallery-icon landscape'>
-      <a href='http://www.fablabjoinville.com.br/2016/06/25/primeira-oficina-de-robotica/img_2240/'><img width="150" height="150" src="http://www.fablabjoinville.com.br/wp-content/uploads/2016/06/IMG_2240-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class='gallery-item'>
-    <dt class='gallery-icon landscape'>
-      <a href='http://www.fablabjoinville.com.br/2016/06/25/primeira-oficina-de-robotica/13438934_10206395825190043_624591755915248593_n/'><img width="150" height="150" src="http://www.fablabjoinville.com.br/wp-content/uploads/2016/06/13438934_10206395825190043_624591755915248593_n-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class='gallery-item'>
-    <dt class='gallery-icon portrait'>
-      <a href='http://www.fablabjoinville.com.br/2016/06/25/primeira-oficina-de-robotica/13452994_10155080088903538_669838957_o/'><img width="150" height="150" src="http://www.fablabjoinville.com.br/wp-content/uploads/2016/06/13452994_10155080088903538_669838957_o-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-  
-  <dl class='gallery-item'>
-    <dt class='gallery-icon landscape'>
-      <a href='http://www.fablabjoinville.com.br/2016/06/25/primeira-oficina-de-robotica/img_2238/'><img width="150" height="150" src="http://www.fablabjoinville.com.br/wp-content/uploads/2016/06/IMG_2238-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class='gallery-item'>
-    <dt class='gallery-icon landscape'>
-      <a href='http://www.fablabjoinville.com.br/2016/06/25/primeira-oficina-de-robotica/13497813_925814750880230_1735597692287094414_o/'><img width="150" height="150" src="http://www.fablabjoinville.com.br/wp-content/uploads/2016/06/13497813_925814750880230_1735597692287094414_o-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <dl class='gallery-item'>
-    <dt class='gallery-icon landscape'>
-      <a href='http://www.fablabjoinville.com.br/2016/06/25/primeira-oficina-de-robotica/img_2226/'><img width="150" height="150" src="http://www.fablabjoinville.com.br/wp-content/uploads/2016/06/IMG_2226-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
-    </dt>
-  </dl>
-  
-  <br style="clear: both" />
-</div>
+<ul class="photo-gallery">
+    {% for image in page.images %}
+        <li><a href="{{site.baseurl}}{{image.full}}"><img src="{{site.baseurl}}{{image.thumb}}"></a></li>
+    {% endfor %}
+</ul>
