@@ -7,7 +7,7 @@ layout: post
 image: /wp-content/uploads/2016/06/IMG_2240-150x113.jpg
 categories:
   - Eventos
-  - Já Foi
+  - JaFoi
   - Workshop
 tags:
   - arduino

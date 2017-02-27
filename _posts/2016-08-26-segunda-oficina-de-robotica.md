@@ -7,7 +7,7 @@ layout: post
 image: /wp-content/uploads/2016/08/cartaz-150x150.png
 categories:
   - Eventos
-  - Já Foi
+  - JaFoi
   - Workshop
 tags:
   - arduino

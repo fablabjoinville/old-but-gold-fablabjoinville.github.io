@@ -6,10 +6,10 @@ author: Alan Fachini
 layout: post
 guid: http://www.fablabjoinville.com.br/?p=3146
 permalink: /2016/10/12/oficina-de-iot/
-image: /wp-content/uploads/2016/10/1°-Oficina-de-IoT2-150x52.png
+image: /wp-content/uploads/2016/10/1a-Oficina-de-IoT2-150x52.png
 categories:
   - Eventos
-  - Já Foi
+  - JaFoi
   - Workshop
 tags:
   - arduino

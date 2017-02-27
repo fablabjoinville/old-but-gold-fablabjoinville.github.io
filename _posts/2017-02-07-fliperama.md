@@ -7,7 +7,7 @@ layout: post
 image: /wp-content/uploads/2017/02/fliperama-150x150.jpg
 categories:
   - Eventos
-  - Já Foi
+  - JaFoi
 tags:
   - fliperama
 ---
