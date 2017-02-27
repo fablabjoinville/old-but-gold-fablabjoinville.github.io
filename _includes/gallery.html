@@ -1,0 +1,5 @@
+<ul class="photo-gallery">
+    {% for image in include.images %}
+        <li><a href="{{site.baseurl}}{{image.full}}"><img src="{{site.baseurl}}{{image.thumb}}"></a></li>
+    {% endfor %}
+</ul>

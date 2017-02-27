@@ -45,11 +45,7 @@ Gostaria de mais uma edição dessa oficina? Entre em contato com a gente! <cont
 <iframe style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffablabjoinville%2Fvideos%2F1795693240698081%2F&amp;show_text=0&amp;width=560" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 </center>
 
-<ul class="photo-gallery">
-    {% for image in page.images %}
-        <li><a href="{{site.baseurl}}{{image.full}}"><img src="{{site.baseurl}}{{image.thumb}}"></a></li>
-    {% endfor %}
-</ul>
+{% include gallery.html images=page.images %}
 
 **Quando:** 29 de Outubro, às 8:00
 

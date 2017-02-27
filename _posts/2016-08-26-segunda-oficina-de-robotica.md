@@ -4,8 +4,6 @@ title: Segunda Oficina de Robótica
 date: 2016-08-26T14:52:16+00:00
 author: Alan Fachini
 layout: post
-guid: http://www.fablabjoinville.com.br/?p=3151
-permalink: /2016/08/26/segunda-oficina-de-robotica/
 image: /wp-content/uploads/2016/08/cartaz-150x150.png
 categories:
   - Eventos
@@ -49,9 +47,4 @@ pode ser encontrado em nosso [Github](https://github.com/fablabjoinville/bracoro
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TsRF75aHSNc" frameborder="0" allowfullscreen></iframe>
 </center>
 
-
-<ul class="photo-gallery">
-    {% for image in page.images %}
-        <li><a href="{{site.baseurl}}{{image.full}}"><img src="{{site.baseurl}}{{image.thumb}}"></a></li>
-    {% endfor %}
-</ul>
+{% include gallery.html images=page.images %}

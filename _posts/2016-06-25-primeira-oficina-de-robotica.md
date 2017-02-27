@@ -4,8 +4,6 @@ title: Primeira Oficina de Robótica
 date: 2016-06-25T14:51:19+00:00
 author: Alan Fachini
 layout: post
-guid: http://www.fablabjoinville.com.br/?p=3149
-permalink: /2016/06/25/primeira-oficina-de-robotica/
 image: /wp-content/uploads/2016/06/IMG_2240-150x113.jpg
 categories:
   - Eventos
@@ -36,8 +34,4 @@ ser encontrado em nosso [Github](https://github.com/fablabjoinville/poppet).
 
 <iframe style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffablabjoinville%2Fvideos%2F1738230983110974%2F&amp;show_text=0&amp;width=560" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-<ul class="photo-gallery">
-    {% for image in page.images %}
-        <li><a href="{{site.baseurl}}{{image.full}}"><img src="{{site.baseurl}}{{image.thumb}}"></a></li>
-    {% endfor %}
-</ul>
+{% include gallery.html images=page.images %}

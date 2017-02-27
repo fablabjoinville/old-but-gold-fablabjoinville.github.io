@@ -4,51 +4,14 @@ title: Home
 date: 2016-04-23T05:32:58+00:00
 author: fablabjoinville
 layout: page
-guid: http://html.orange-idea.com/qoon/impression/?page_id=5
-oi_ps:
-  - standard
-oi_tag:
-  - All
-port_page:
-  - Top
-port_layout:
-  - Random Thumbnails With Spaces
-port_load_more:
-  - 'Yes'
-port_filters:
-  - 'Yes'
-sidebarss:
-  - qoon_blog_sidebar
-sidebarss_position:
-  - Right Sidebar
-page_title:
-  - 'Yes'
-cont_lay:
-  - With Paddings
-feat_h:
-  - Full Screen
-feat_h_pos:
-  - center bottom
-rev_s:
-  - home
-slide_template:
-  - default
-oi_ps_w:
-  - boxed
-port-count:
-  - ""
-port-load_count:
-  - ""
-page-d:
-  - ""
 ---
-\[vc\_row\]\[vc\_column\]\[vc\_separator color=&#8221;white&#8221; css=&#8221;.vc\_custom\_1467581120688{padding-top: 20px !important;padding-bottom: 20px !important;}&#8221;\]\[/vc\_column\]\[/vc\_row\]\[vc\_row oi\_ellements\_height=&#8221;Equalize Heights&#8221;\]\[vc\_column\]\[vc\_column\_text css=&#8221;.vc\_custom_1477859162942{margin-bottom: -20px !important;border-bottom-width: 0px !important;padding-bottom: 0px !important;}&#8221;\]
 
-<h2 style="text-align: center; margin: 0px;">
-  <strong>Workshops</strong>
-</h2>
+## Eventos
 
-[/vc\_column\_text]
+{% for post in site.categories.Eventos %}
+[](post.image)<br>
+{{post.title}}<br>
+{% endfor %}
 
 <div class="oi_custom_heading_holder" style="margin-bottom:20px">
   <div class="oi_vc_heading oi_border_position_center" style="text-align:center; ">

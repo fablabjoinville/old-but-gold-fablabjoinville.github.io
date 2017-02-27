@@ -4,8 +4,6 @@ title: Fliperama
 date: 2017-02-07T09:46:24+00:00
 author: fablabjoinville
 layout: post
-guid: http://www.fablabjoinville.com.br/?p=3326
-permalink: /2017/02/07/fliperama/
 image: /wp-content/uploads/2017/02/fliperama-150x150.jpg
 categories:
   - Eventos

@@ -4,39 +4,6 @@ title: Media Center
 date: 2016-10-04T18:50:04+00:00
 author: Alan Fachini
 layout: page
-guid: http://www.fablabjoinville.com.br/?page_id=3094
-oi_ps:
-  - standard
-oi_ps_w:
-  - boxed
-oi_tag:
-  - All
-port_page:
-  - Top
-port_layout:
-  - Random Thumbnails With Spaces
-port_load_more:
-  - 'Yes'
-port_filters:
-  - 'Yes'
-sidebarss:
-  - qoon_blog_sidebar
-sidebarss_position:
-  - Right Sidebar
-page_title:
-  - 'Yes'
-cont_lay:
-  - With Paddings
-feat_h:
-  - Do Not Show
-feat_h_pos:
-  - center bottom
-port-count:
-  - ""
-port-load_count:
-  - ""
-page-d:
-  - ""
 ---
 \[vc\_row\]\[vc\_column\][vc\_column\_text css=&#8221;.vc\_custom\_1475617516214{margin-bottom: -20px !important;border-bottom-width: 0px !important;padding-bottom: 0px !important;}&#8221;]
 

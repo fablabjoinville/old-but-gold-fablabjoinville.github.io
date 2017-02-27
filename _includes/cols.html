@@ -1,0 +1,8 @@
+{% assign topics = include.cols | split: "---" %}
+<div style="display: flex">
+    {% for col in topics %}
+        <div style="flex: 1">
+            {{col | markdownify}}
+        </div>
+    {% endfor %}
+</div>
