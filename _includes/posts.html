@@ -1,0 +1,13 @@
+{% for post in include.posts %}
+<div>
+    <a href="{{site.baseurl}}{{post.url}}">
+        {% if post.image %}
+            <img src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
+            <br>
+        {% endif %}
+        {{post.title}}
+    </a>
+    {{post.excerpt}}
+</div>
+
+{% endfor %}

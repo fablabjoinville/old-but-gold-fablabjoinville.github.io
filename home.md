@@ -8,11 +8,7 @@ layout: page
 
 ## Eventos
 
-{% for post in site.categories.Eventos %}
-<a href="{{site.baseurl}}{{post.url}}">{%
-    if post.image %} ![{{post.title}}]({{site.baseurl}}{{post.image}})<br> {%
-    endif %} {{post.title}}</a>
-{% endfor %}
+{% include posts.html posts=site.categories.Eventos %}
 
 Participe também do nosso [Clube Semanal]({{site.baseurl}}{% link clubes-maker.md %})!
 
